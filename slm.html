@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Security Scan Report - firinanatolia.com</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 20px; color: #333; }
+        .container { max-width: 1200px; margin: auto; }
+        .header { background: #2c3e50; color: white; padding: 20px; border-radius: 5px; margin-bottom: 20px; }
+        .section { margin-bottom: 30px; border: 1px solid #ddd; padding: 15px; border-radius: 5px; }
+        .section-title { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .vulnerable { color: #e74c3c; font-weight: bold; }
+        .secure { color: #27ae60; }
+        .warning { color: #f39c12; }
+        .chart { margin-top: 20px; text-align: center; }
+        .footer { margin-top: 30px; text-align: center; font-size: 0.9em; color: #7f8c8d; }
+        .risk-summary { display: flex; justify-content: space-around; margin: 20px 0; gap: 10px; flex-wrap: wrap; }
+        .risk-level { padding: 12px 25px; border-radius: 5px; font-weight: bold; font-size: 1.1em; min-width: 100px; text-align: center; }
+        .risk-level.critical { background-color: #e74c3c; color: white; }
+        .risk-level.high { background-color: #f39c12; color: white; }
+        .risk-level.total { background-color: #3498db; color: white; }
+        .findings { list-style-type: none; padding: 0; margin-top: 15px; }
+        .findings li { padding: 15px; margin-bottom: 15px; border-left: 6px solid; border-radius: 4px; background-color: #fff; box-shadow: 0 1px 3px rgb(0 0 0 / 0.1); }
+        .findings li.critical { border-color: #e74c3c; background-color: #fdecea; }
+        .findings li.high { border-color: #f39c12; background-color: #fef5e7; }
+        .findings strong { font-weight: 700; }
+        .findings small { color: #555; font-style: italic; display: block; margin-top: 5px; }
+        .ai-recommendations { background-color: #f8f9fa; padding: 20px; border-radius: 5px; font-size: 1em; line-height: 1.5; }
+        .ai-recommendations p { margin: 0 0 10px; }
+        a { color: #2980b9; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Security Scan Report</h1>
+            <h2>firinanatolia.com</h2>
+            <p>Generated on 2025-06-20 12:25:11</p>
+        </div>
+
+        <div class="section" id="summary">
+            <h3 class="section-title">Scan Summary</h3>
+            <table>
+                <tr><th>Target URL</th><td>http://firinanatolia.com</td></tr>
+                <tr><th>IP Address</th><td>89.252.186.212</td></tr>
+                <tr><th>Scan Date</th><td>2025-06-20 12:25:11</td></tr>
+            </table>
+        </div>
+
+        
+
+        
+
+        
+        <div class="section" id="ai-analysis">
+            <h3 class="section-title">8. 🔍 AI Güvenlik Analizi</h3>
+            
+            <div class="risk-summary">
+                <div class="risk-level critical">
+                    CRITICAL: 0
+                </div>
+                <div class="risk-level high">
+                    HIGH: 0
+                </div>
+                <div class="risk-level total">
+                    TOTAL: 1
+                </div>
+            </div>
+            
+            <h4>Önemli Bulgular</h4>
+            <ul class="findings">
+                
+            </ul>
+            
+            <h4>AI Önerileri</h4>
+            <div class="ai-recommendations">
+                
+                <p>🔮 DMARC kaydı eksik - E-posta güvenliği zayıf</p>
+                
+            </div>
+        </div>
+        
+
+        <div class="section" id="dns-records">
+            <h3 class="section-title">DNS Records</h3>
+            <table>
+                
+            </table>
+        </div>
+
+        
+
+        
+        <div class="section" id="nmap">
+            <h3 class="section-title">5. Gelişmiş Nmap Taraması (-sS -A)</h3>
+            
+            <h4>89.252.186.212</h4>
+            <table>
+                <tr>
+                    <th>Port</th>
+                    <th>State</th>
+                    <th>Service</th>
+                    <th>Version</th>
+                </tr>
+                
+                <tr>
+                    <td>21/tcp</td>
+                    <td>open</td>
+                    <td>ftp</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td>80/tcp</td>
+                    <td>open</td>
+                    <td>http</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td>443/tcp</td>
+                    <td>open</td>
+                    <td>https</td>
+                    <td></td>
+                </tr>
+                
+                <tr>
+                    <td>3306/tcp</td>
+                    <td>open</td>
+                    <td>mysql</td>
+                    <td></td>
+                </tr>
+                
+            </table>
+            
+        </div>
+        
+
+        <div class="footer">
+            <p>Report generated by SecurityTool | Confidential</p>
+        </div>
+    </div>
+</body>
+</html>
+
+        

@@ -1,0 +1,9 @@
+requests
+python-nmap
+dnspython
+python-whois
+beautifulsoup4
+pandas
+matplotlib
+jinja2
+
